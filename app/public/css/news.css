@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    cursor:pointer;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    background: #fff;
+    font: 14px PingFangSC-regular, "Microsoft YaHei", "\u5FAE\u8F6F\u96C5\u9ED1", "SimSun", "\u5B8B\u4F53", "Arial";
+}
+
+ol,
+ul{
+    list-style-position:inside;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+a:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+    -webkit-appearance: none;
+}
+pre{
+    white-space:pre-wrap;
+    word-wrap: break-word;
+}
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+    font-size: 0
+}
+
+.clearfix {
+    zoom: 1
+}
+button {
+    outline-style: none;
+}
+input[type="button"],
+input[type="email"],
+input[type="image"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="submit"],
+input[type="reset"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+button,
+textarea,
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    resize: none;
+    cursor: pointer;
+}

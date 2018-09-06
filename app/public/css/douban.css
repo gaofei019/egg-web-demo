@@ -1,0 +1,87 @@
+.head-navhead {
+  margin:0;
+  padding:0;
+}
+.head-nav {
+  height:40px;
+  line-height: 40px;
+}
+.thumb-avatar {
+  width:32px;
+  height:32px;
+  border-radius: 50%;
+}
+.rotate{
+  transition-duration: 0.5s;
+  transition-timing-function: linear; 
+}
+.rotate:hover {
+  transform: rotate(360deg);
+}
+.padding-top {
+  padding-top: 20px;
+}
+.head-nav li {
+  display: inline-block;
+  width: auto;
+}
+.header-h1 {
+  width: 140px;
+}
+.nav-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.col-md-2 .thumbnail{
+  position: relative;
+  height: 282px;
+}
+.col-md-2 .thumbnail .caption{
+  position: absolute;
+  width:100%;
+  bottom:6px;
+  text-align: center;
+}
+.vertical-line {
+  display: inline-block;
+}
+
+.manager-user {
+  margin-left:10px;
+}
+
+.li-no-border li {
+  border: none;
+}
+.navbar {
+  min-height: auto;
+}
+
+.nav>li>a {
+  display: inline-block;
+  padding: 4px;
+}
+
+a.style-none {
+  color: #333;
+  text-decoration: none;
+}
+a.tab-change{
+  color: #777;
+  text-decoration: none;
+}
+
+
+input#avatar {
+  outline: none;
+  cursor: pointer;
+  margin-bottom:10px;
+}
+
+.tab-content-padding {
+  padding: 16px 10px;
+}
+
+.radius {
+  border-radius: 50%;
+}
